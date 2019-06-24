@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     </head>
     <body>
-        <form>
-            <input type="text" placeholder="Social Security Number">
+        <h1>Register Today</h1>
 
-            <input type="submit">
+        <form>
+                First name:
+                <input type="text" placeholder="First">
+                
+                Last name:
+                <input type="text" placeholder="Last"><br>
+
+            
+                Male<input type="radio" name="gender" value="male"> 
+                Female<input type="radio" name="gender" value="female"> 
+                Other<input type="radio" name="gender" value="other"> 
+            
+                <br>Email:
+                <input type="text" placeholder="Email">
+                
+                Password:
+                <input type="text" placeholder="Password"><br>
+
+                Birthday: <select name="year">
+                        <option value="fiat" selected>Month</option>
+                        <option value="Jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="fiat">Mar</option>
+                        <option value="audi">Apr</option>
+                      </select>
+
+                      <select name="year">
+                            <option value="date" selected>Date</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            
+                          </select>
+                          <select name="year">
+                                <option value="year" selected>Year</option>
+                                <option value="20">2000</option>
+                                <option value="21">2001</option>
+                                <option value="22">2002</option>
+                                <option value="23">2003</option>
+                                <option value=24>2004</option>
+                              </select><br>
+                            
+                              I agree to terms and conditions<input type="radio" name="gender" value="other"> 
+
+                <br><input type="submit" value="Submit">
         </form>
     </body>
 </html>
