@@ -4,33 +4,46 @@
    </body>
 <script>
 // Create a variable that holds the RANDOM number between 1-20
-console.log(Math.floor(Math.random() * 20));
-var random = Math.floor * 20;
+console.log(Math.floor(Math.random() * 2));
+var random = Math.floor * 2;
 
 // Part 2: Create variable that holds the number of turns
-
+var turn = 5;
 // Create a variable for your "hint to the user" Ex: Guess my number between 1-20
-
+var hint = 'I am thinking of a number between 1 and 2, can you read my mind?' + 'You have ' + turn +' guesses.';
 // when is true != true?  What should our condition actually be?
-while (true == true) {
-
+while (turn != 0) {
+   turn--;
+}
 // Use the prompt method to ask the user for input. Use this to also display the "hint to the user"
 // Part 2: Also display how many tries the user has left
 
-var guess = prompt(PUT YOUR HINT VARIABLE HERE);
+var guess = prompt(hint);
+
+console.log(turn);
+
+hint = 'I am thinking of a number between 1 and 20, can you read my mind? ' + 'You have ' + turn +' guesses left.';
 
 // Convert the users guess to a number
 
-// Use an if statement to see if the player's guess is equal to the random one generated
 
+
+// Use an if statement to see if the player's guess is equal to the random one generated
+if (guess = random) {
+   console.log('How you did know what I was thinking?')
+}
 
 // Use an else statement to notify the user if they guessed incorrectly
+else (guess != random) {
+   console.log('try again, you have' + turn + 'turns left')
+}
 
 // Part 2: Inside the else statement, tell the player whether their guess is too small or too big, Hint: you'll need to use an if statement
 
-}
+
 
 // Part 2: If the user runs out of guesses, tell them what the correct number is.  Hint: What variable did we use to define it?
+
 
 
    </script>
