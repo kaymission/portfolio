@@ -1,5 +1,39 @@
 body {
-    background-image: url("http://www.guidinghome.com/wp-content/uploads/2014/07/183.jpg");
+    background-image: url("https://cdn.hipwallpaper.com/i/18/88/B7t3Sh.jpg");
     background-repeat: no-repeat;
    background-size: cover;
    }
+   .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+   .center {
+    display: block;
+    margin-left: 250px;
+    margin-right: 50px;
+    width: 50%;
+  }
+
+  .center2 {
+    display: block;
+    margin-left: 450px;
+    margin-right: 50px;
+    width: 50%;
+  }
+
+  a {
+      color: black;
+  }
+
+  #white {
+    text-align:center;
+    color: white;
+}
