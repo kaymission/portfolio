@@ -9,6 +9,7 @@ h1 {
     font-size: 24px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     display: block;
+    border-radius: 12px;
 }
 
 .button {
@@ -27,8 +28,30 @@ h1 {
   }
   
   .button:hover {opacity: 1}
-  
 
+  .button:hover {
+    /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);*/
+    box-shadow:rgb(0, 0, 0);
+  }
+  
+  .btn {
+    display: inline-block;
+    
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+   
+  }
+  
+  
+  
+  .btn:active {
+    transform: translateY(4px);
+  }
 
 
 
