@@ -35,18 +35,22 @@ body {
 
   #white {
     text-align:center;
-    color: white;
+    color: rgb(116, 115, 115);
     border: solid;
     border-color: gray;
-    background-color: lightgrey;
+    background-color: rgb(227, 223, 223);
 }
 
 h4 {
-    color: white;
+    color: rgb(116, 115, 115);
     border: solid;
     border-color: gray;
-    background-color: lightgrey;
+    background-color: rgb(227, 223, 223);
     margin-right:340px;
   margin-left: 300px;
   width: 50%;
+}
+
+#na {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
