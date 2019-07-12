@@ -3,4 +3,21 @@ h3 {
   }
 a {
     color: black;
+
 }
+body {
+  background-image: url("https://static1.squarespace.com/static/544bd203e4b039375994762e/546e6920e4b0d88666377e65/554ba92ae4b0cc8acf96a9c8/1431021867754/AEB-57.jpg");
+  background-repeat: no-repeat;
+ background-size: cover;
+ }
+ #me {
+  text-align:center;
+  color: rgb(116, 115, 115);
+  border: outset;
+  border-color: gray;
+  background-color: rgb(186, 186, 186);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-right:290px;
+  margin-left: 250px;
+  font-size: 28px;
+ }

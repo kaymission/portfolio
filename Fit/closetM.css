@@ -1,3 +1,8 @@
 a {
     color: black;
 }
+body {
+    background-image: url("https://envato-shoebox-0.imgix.net/037b/a93d-3b7b-4815-8275-309fb4c583e6/IMG_0976.JPG?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=657c4617ef4244e0efdace10b6551847");
+    background-repeat: no-repeat;
+   background-size: cover;
+   }
