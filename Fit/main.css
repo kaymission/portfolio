@@ -1,8 +1,14 @@
 body {
-    background-image: url("https://cdn.hipwallpaper.com/i/18/88/B7t3Sh.jpg");
+    background-image: url("https://www.buffaloexchange.com/wp-content/uploads/MN1_Minneapolis_2.jpg");
     background-repeat: no-repeat;
    background-size: cover;
    }
+
+   /*https://cdn.hipwallpaper.com/i/18/88/B7t3Sh.jpg
+   https://www.buffaloexchange.com/wp-content/uploads/MN1_Minneapolis_2.jpg
+
+   https://image.freepik.com/free-photo/abstract-blurred-background-interior-clothing-store-shopping-mall_44943-543.jpg
+   */
    .column {
     float: left;
     width: 33.33%;
@@ -36,9 +42,12 @@ body {
   #white {
     text-align:center;
     color: rgb(116, 115, 115);
-    border: solid;
+    border: outset;
     border-color: gray;
-    background-color: rgb(227, 223, 223);
+    background-color: rgb(186, 186, 186);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right:150px;
+    margin-left: 110px;
 }
 
 h4 {
@@ -98,4 +107,6 @@ img {
   height: 300px;
   object-fit: cover;
 }
+
+
 

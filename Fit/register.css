@@ -4,5 +4,20 @@ a {
 
 form {
     text-align: center;
-    
+    border: inset;
+    margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightgray;
   }
+  
+  body {
+    background-image: url("https://wallimpex.com/data/out/43/clothing-backgrounds-4400607.jpg");
+    background-repeat: no-repeat;
+   background-size: cover;
+   }
+p {
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}

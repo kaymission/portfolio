@@ -3,8 +3,24 @@ a {
 }
 form {
     text-align: center;
+    border: inset;
+    margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightgray;
   }
 
 h1{
     text-align: center;
+    color: black;
   }
+  body {
+    background-image: url("https://c.pshere.com/photos/30/a0/assorted_blurred_background_boutique_business_close_up_clothes_clothes_hanger_clothing-1000427.jpg!d");
+    background-repeat: no-repeat;
+   background-size: cover;
+   }
+
+p {
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
