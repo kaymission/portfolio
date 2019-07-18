@@ -6,3 +6,31 @@ body {
     background-repeat: no-repeat;
    background-size: cover;
    }
+   .small {
+    height: 200px;
+    width: 200px;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .center {
+    display: block;
+    margin-left: 190px;
+    margin-right: 150px;
+    width: 50%;
+  }
+
+  .center2 {
+    display: block;
+    margin-left: 450px;
+    margin-right: 250px;
+    width: 50%;
+  }

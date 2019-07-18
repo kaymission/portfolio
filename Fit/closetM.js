@@ -17,14 +17,14 @@ let topsIndex = -1;
 
 var tops = [
     "https://i.stack.imgur.com/Vkq2a.png",
-    "photos/women/b/mustard_knotted_striped_tee_1_2048x-removebg-preview.png",
-    "photos/women/b/1502315367113393269-removebg-preview.png",
-    "photos/women/b/Hardwood_Flava_Red_Blk_large-removebg-preview.png",
-    "photos/women/b/c9050d2160642155a1425982aca588b4-removebg-preview.png",
-    "photos/women/b/GUEST_672bfdd0-4ad0-4620-bf54-1a83cbe75ca8-removebg-preview.png",
-    "photos/women/b/images-removebg-preview.png",
-    "photos/women/b/thrasher-skate-mag-t-shirt-grey-1-removebg-preview.png"
-]
+    "https://media.karousell.com/media/photos/products/2018/10/05/guess_rexford_stripe_tee_1538726738_7504e6d30" ,
+    "https://workingperson.com/media/catalog/product/cache/1/image/400x/9df78eab33525d08d6e5fb8d27136e95/p/c/pc61wht-portcof_01.jpg" ,
+    "https://di2ponv0v5otw.cloudfront.net/posts/2019/01/27/5c4e1f0b7386bc43d5843bb0/m_5c4e1f104ab633c76ea17587.jpg",
+    "http://d3nt9em9l1urz8.cloudfront.net/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/i/m/img_0610.jpg", 
+   "http://www.kaigo-system.com/images/Ralph/e-Bar-Red-Bl-Ralph-Lauren-Slanted-Bar-Men121.jpg", 
+    "https://www.hypexchange.co/wp-content/uploads/2018/02/Supreme-Scarface-Split-Tee-Heather-Grey_1-1300x1300.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81hlagQSGOL._UX522_.jpg" 
+    ]
 function changeTops() {
     var select = document.querySelector("#tops");
     if (topsIndex == 7) {
@@ -40,14 +40,13 @@ function changeTops() {
 
 let pantsIndex = -1;
 var pants = [
-    "https://i.stack.imgur.com/Vkq2a.png",
-    "photos/women/a/27948afb-ee0d-4c10-bb24-ef2f845d7eb8_1-removebg-preview.png",
-    "photos/women/a/dedc26101d4e4545090fdc029361ea2d-removebg-preview.png",
-    "photos/women/a/product-image-184205671-removebg-preview.png",
-    "photos/women/a/2017-Women-Fashion-Denim-Skinny-Ripped-Pants-High-Waist-Stretch-Hole-Boyfriend-Jeans-For-Women-removebg-preview.png",
-    "photos/women/a/ac8bc9c7371ad3101bbb204a7205bb65-removebg-preview.png",
-    "photos/women/a/ripped-denim-jeans-women-s-distressed-loose-fit-light-blue-pants-13210663059--248-500x500_0-removebg-preview.png",
-    "photos/women/a/2018-Fashion-Chain-Military-Camouflage-pants-women-Army-black-high-waist-loose-Camo-Pants-Trousers-Street-removebg-preview.png"
+    <img src="https://ae01.alicdn.com/kf/HTB1oWh1XOzxK1Rjy1zkq6yHrVXaS/New-Joggers-Pants-men-Jordan-letter-print-hip-hop-Keep-warm-winter-Sweatpants-Pantalon-Homme-Trousers.jpg" height="180" width="180">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/81DFpbuSVwL._UX385_.jpg" height="180" width="180">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/61o9Pg3WoBL._UX385_.jpg" height="180" width="180">
+    <img src="https://cdn.shopify.com/s/files/1/2329/0393/products/1_MEN_S_GYM_SHORTS_OZ_GYM_WEAR_EMBRACE_PAIN_GREY_1024x1024@2x.jpg?v=1560416512" height="180" width="180">
+    <img src="https://gloimg.twkcdn.com/td/pdm-product-pic/Clothing/2018/06/09/source-img/20180609193304_69163.jpg" height="180" width="180">
+    <img src="https://5.imimg.com/data5/FY/MN/MY-6841714/black-jeans-500x500.jpeg" height="180" width="180">
+    <img src="https://www.brother2brother.co.uk/images/kappa-red-black-slim-fit-sweatpants-p14354-36454_image.jpg" height="180" width="180">
 ]
 function changePants() {
     var select = document.querySelector("#pants");
