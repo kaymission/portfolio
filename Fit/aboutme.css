@@ -5,6 +5,33 @@ a {
     color: black;
 
 }
+
+   
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ .center {
+  display: block;
+  margin-left: 190px;
+  margin-right: 150px;
+  width: 50%;
+}
+
+.center2 {
+  display: block;
+  margin-left: 450px;
+  margin-right: 250px;
+  width: 50%;
+}
 body {
   background-image: url("https://static1.squarespace.com/static/544bd203e4b039375994762e/546e6920e4b0d88666377e65/554ba92ae4b0cc8acf96a9c8/1431021867754/AEB-57.jpg");
   background-repeat: no-repeat;
@@ -21,3 +48,4 @@ body {
   margin-left: 30px;
   font-size: 25px;
  }
+

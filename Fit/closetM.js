@@ -40,6 +40,7 @@ function changeTops() {
 
 let pantsIndex = -1;
 var pants = [
+    "https://i.stack.imgur.com/Vkq2a.png",
     "photos/men/a/1_MEN_S_GYM_SHORTS_OZ_GYM_WEAR_EMBRACE_PAIN_GREY_1024x1024_2x-removebg-preview.png",
     "photos/men/a/61o9Pg3WoBL-removebg-preview.png",
     "photos/men/a/81DFpbuSVwL-removebg-preview.png",
@@ -62,6 +63,7 @@ function changePants() {
 
 let jacketsIndex = -1;
 var jackets = [
+    "https://i.stack.imgur.com/Vkq2a.png",
     "photos/men/c/534184dbd2d9e5b05bb075ef9eb90ee1--zip-up-hoodies-mens-sweatshirts-removebg-preview.png",
     "photos/men/c/35585820_fr-removebg-preview.png",
     "photos/men/c/1533811230-66487600-removebg-preview.png",
@@ -84,6 +86,7 @@ function changeJackets() {
 
 let dressesIndex = -1;
 var dresses = [
+    "https://i.stack.imgur.com/Vkq2a.png",
     "photos/men/d/08-07-2019_nike_airforce107_white_315122-111_mb_1-removebg-preview.png",
     "photos/men/d/26520_0-removebg-preview.png",
     "photos/men/d/414575_016-removebg-preview.png",
@@ -106,6 +109,7 @@ function changeDresses() {
 
 let shoesIndex = -1;
 var shoes = [
+    "https://i.stack.imgur.com/Vkq2a.png",
     "photos/men/e/3cfd97e0-e517-4ba4-b12a-56a98247291d-removebg-preview.png",
     "photos/men/e/554788-removebg-preview.png",
     "photos/men/e/1020176_3Q_PDP-removebg-preview.png",

@@ -122,51 +122,92 @@
                 </div>
             -->
 
+
         <h1>Tops</h1>
 
         <div id="big" class="bottom"> </div>
 
-        <div>
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
             <img id="tops" class="small"
-                src="https://images.vexels.com/media/users/3/148621/isolated/preview/7342af9feb5bcde30180f14b9629ded5-blue-women-t-shirt-cartoon-by-vexels.png">
+                src="https://images.vexels.com/media/users/3/148621/isolated/preview/7342af9feb5bcde30180f14b9629ded5-blue-women-t-shirt-cartoon-by-vexels.png" draggable="true" ondragstart="drag(event)" id="drag1" >
             <button class="next" onclick="changeTops()">change</button>
-        </div>
+        </div> <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
         <h1>Pants</h1>
 
         <div id="big" class="bottom"> </div>
 
-        <div>
-            <img id="pants" class="small" src="photos/women/a/istockphoto-1005469750-612x612-removebg-preview.png">
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img id="pants" class="small" src="photos/women/a/istockphoto-1005469750-612x612-removebg-preview.png" draggable="true" ondragstart="drag(event)" id="drag1" >
             <button class="next" onclick="changePants()">change</button>
-        </div>
+        </div> <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
         <h1>Jackets</h1>
 
         <div id="big" class="bottom"> </div>
 
-        <div>
-            <img id="jackets" class="small" src="photos/women/c/illustration-isolated-jacket-260nw-104241500-removebg-preview.png">
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img id="jackets" class="small" src="photos/women/c/illustration-isolated-jacket-260nw-104241500-removebg-preview.png" draggable="true" ondragstart="drag(event)" id="drag1" >
             <button class="next" onclick="changeJackets()">change</button>
-        </div>
+        </div> <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
         <h1>Dresses</h1>
 
         <div id="big" class="bottom"> </div>
 
-        <div>
-            <img id="dresses" class="small" src="photos/women/d/red-evening-dress-icon-cartoon-style-vector-8104284-removebg-preview.png">
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img id="dresses" class="small" src="photos/women/d/red-evening-dress-icon-cartoon-style-vector-8104284-removebg-preview.png" draggable="true" ondragstart="drag(event)" id="drag1" >
             <button class="next" onclick="changeDresses()">change</button>
-        </div>
+        </div> <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
         <h1>Shoes</h1>
 
         <div id="big" class="bottom"> </div>
 
-        <div>
-            <img id="shoes" class="small" src="photos/women/e/images-removebg-preview.png">
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img id="shoes" class="small" src="photos/women/e/images-removebg-preview.png" draggable="true" ondragstart="drag(event)" id="drag1" >
             <button class="next" onclick="changeShoes()">change</button>
-        </div>
+        </div> <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <img src="photos/women/r1245-a-removebg-preview.png">
     </body>
 
     </html>
+
+
+<html>
+    <head>
+    <style>
+    #div1 {
+      float: left;
+      width: 180px;
+      height: 180px;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid black;
+    }
+    #div2 {
+      float: left;
+      width: 180px;
+      height: 180px;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid black;
+    }
+    </style>
+    <script>
+    function allowDrop(ev) {
+      ev.preventDefault();
+    }
+    
+    function drag(ev) {
+      ev.dataTransfer.setData("text", ev.target.id);
+    }
+    
+    function drop(ev) {
+      ev.preventDefault();
+      var data = ev.dataTransfer.getData("text");
+      ev.target.appendChild(document.getElementById(data));
+    }
+    </script>
+    </head>
+    
