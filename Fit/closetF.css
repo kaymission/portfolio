@@ -12,11 +12,23 @@ body {
    .small {
     height: 200px;
     width: 200px;
+    
+
   }
+  .butnCol {
+   
+    border: solid;
+    border-color: grey;
+    margin-right: 1150px;
+    margin-left: 55px;
+  }
+
   .column {
     float: left;
     width: 33.33%;
     padding: 5px;
+    
+
   }
 
   .row::after {

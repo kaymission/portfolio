@@ -18,3 +18,10 @@ body {
     margin-left: 250px;
     font-size: 28px;
    }
+   form {
+    text-align: center;
+    border: inset;
+    margin-right: 530px;
+  margin-left: 480px;
+  background-color: lightgray;
+  }

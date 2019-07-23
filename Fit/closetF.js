@@ -16,7 +16,7 @@ console.log(array);
 let topsIndex = -1;
 
 var tops = [
-    "https://i.stack.imgur.com/Vkq2a.png",
+    
     "photos/women/b/mustard_knotted_striped_tee_1_2048x-removebg-preview.png",
     "photos/women/b/1502315367113393269-removebg-preview.png",
     "photos/women/b/Hardwood_Flava_Red_Blk_large-removebg-preview.png",
@@ -27,7 +27,7 @@ var tops = [
 ]
 function changeTops() {
     var select = document.querySelector("#tops");
-    if (topsIndex == 7) {
+    if (topsIndex == 6) {
         topsIndex = 0;
         select.src = tops[topsIndex];
     }
@@ -40,7 +40,7 @@ function changeTops() {
 
 let pantsIndex = -1;
 var pants = [
-    "https://i.stack.imgur.com/Vkq2a.png",
+    
     "photos/women/a/27948afb-ee0d-4c10-bb24-ef2f845d7eb8_1-removebg-preview.png",
     "photos/women/a/dedc26101d4e4545090fdc029361ea2d-removebg-preview.png",
     "photos/women/a/product-image-184205671-removebg-preview.png",
@@ -51,7 +51,7 @@ var pants = [
 ]
 function changePants() {
     var select = document.querySelector("#pants");
-    if (pantsIndex == 7) {
+    if (pantsIndex == 6) {
         pantsIndex = 0;
         select.src = pants[pantsIndex];
     }
@@ -63,7 +63,7 @@ function changePants() {
 
 let jacketsIndex = -1;
 var jackets = [
-    "https://i.stack.imgur.com/Vkq2a.png",
+  
     "photos/women/c/stella-mccartney-distressed-denim-jacket-care-instructions-machine-wash-at-30-degre-2372-500x500-removebg-preview.png",
     "photos/women/c/eng_pl_Champion-Reverse-Weave-Script-Logo-Crewneck-Sweatshirt-Light-Grey-212576-EM004-5856_1-removebg-preview.png",
     "photos/women/c/cotton_screen_printing_detailing_women_s_sweatshirt_olorblocked_in_black_and_pink_by_fusion-1_3-removebg-preview.png",
@@ -74,7 +74,7 @@ var jackets = [
 ]
 function changeJackets() {
     var select = document.querySelector("#jackets");
-    if (jacketsIndex == 7) {
+    if (jacketsIndex == 6) {
         jacketsIndex = 0;
         select.src = jackets[jacketsIndex];
     }
@@ -86,7 +86,7 @@ function changeJackets() {
 
 let dressesIndex = -1;
 var dresses = [
-    "https://i.stack.imgur.com/Vkq2a.png",
+    
     "photos/women/d/61sh3Xx-1RL-removebg-preview.png",
     "photos/women/d/BerryGo-Bow-ruched-tube-top-jumpsuit-romper-women-Casual-high-waist-short-overalls-Summer-chic-streatwear-removebg-preview.png",
     "photos/women/d/61DDbu-QyGL-removebg-preview.png",
@@ -97,7 +97,7 @@ var dresses = [
 ]
 function changeDresses() {
     var select = document.querySelector("#dresses");
-    if (dressesIndex == 7) {
+    if (dressesIndex == 6) {
         dressesIndex = 0;
         select.src = dresses[dressesIndex];
     }
@@ -109,7 +109,7 @@ function changeDresses() {
 
 let shoesIndex = -1;
 var shoes = [
-    "https://i.stack.imgur.com/Vkq2a.png",
+    
     "photos/women/e/2745VTR_6000_detail-removebg-preview.png",
     "photos/women/e/Cute-Dog-Cartoon-Women-Slides-2018-Fashion-Pu-Leather-Beach-Shoes-Women-Flat-Heels-Flip-Flops_aa85a328-20c7-4950-9786-48a033f47cf5-removebg-preview.png",
     "photos/women/e/D3HY28-HERO-removebg-preview.png",
@@ -121,7 +121,7 @@ var shoes = [
 ]
 function changeShoes() {
     var select = document.querySelector("#shoes");
-    if (shoesIndex == 7) {
+    if (shoesIndex == 6) {
         shoesIndex = 0;
         select.src = shoes[shoesIndex];
     }

@@ -5,14 +5,41 @@ a {
     color: black;
 
 }
-
+.twoTL {
+  margin-left: 70px;
+  border-radius: 12px;
+}
+.inst {
+  color: white;
+  border: double;
+  background-color: rgb(174, 174, 174);
+  border-color: gray;
+  text-align:center;
+  border-width: 15px;
+  border-radius: 12px;
+}
    
 .column {
   float: left;
   width: 33.33%;
   padding: 5px;
+  margin-left: 30px;
 }
-
+#circus {
+  padding: 15px 30px;
+  border-radius: 4px;
+  border: 5px solid rgb(68, 122, 123);
+}
+#twin {
+  padding: 15px 30px;
+  border-radius: 4px;
+  border: 5px solid rgb(68, 122, 123);
+}
+#ela {
+  padding: 15px 30px;
+  border-radius: 4px;
+  border: 5px solid rgb(68, 122, 123);
+}
 .row::after {
   content: "";
   clear: both;
@@ -44,8 +71,11 @@ body {
   border-color: gray;
   background-color: rgb(94, 94, 94);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin-right:935px;
-  margin-left: 30px;
+  /*margin-right:935px;
+  margin-left: 30px; */
+  height: 500px;
+  width: 400px;
   font-size: 25px;
+  margin-bottom: 50px;
  }
 
