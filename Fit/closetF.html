@@ -12,7 +12,7 @@
 
 <body>
     <nav class="navbar navbar-dark bg-dark">
-        <button class="button button5 btn"><a href=main.html><b>Home</b></a></button>
+        <button class="button button5 btn"><a href=index.html><b>Home</b></a></button>
         </ul>
         <ul class="nav navbar-nav">
             <button class="button button5 btn">
@@ -32,7 +32,7 @@
 
         <div class="navbar-header">
             <a href="#" class="navbar-brand">
-                <h2><b>FIT CREATION</b></h2>
+                <h2 class="create"><b>FIT CREATION</b></h2>
             </a>
         </div>
         <ul class="nav navbar-nav">
@@ -47,74 +47,93 @@
 
 
     </nav>
-    
+
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="closetF.css">
         <script type="text/javascript" src="closetF.js"></script>
         <link rel="stylesheet" href="button.css">
         <link rel="stylesheet" href="all.css">
+        <link type="text/css" rel="stylesheet" href="arrays.css">
     </head>
-   
-     
-    
-            <html>
-        <head>
-            <link type="text/css" rel="stylesheet" href="arrays.css" >
-        </head>
-        <body>
-                <h1>Tops</h1>
-    
-                <div id="big" class= "bottom" > </div>
-    
-                <div>
-                    <img id="tops" class="small" src="https://images.vexels.com/media/users/3/148621/isolated/preview/7342af9feb5bcde30180f14b9629ded5-blue-women-t-shirt-cartoon-by-vexels.png">
+
+    <body>
+        <div class="row">
+
+            <div class="column" id="side">
+
+                <div id="cnge"><button class="next" onclick="changeShoes()">change shoes</button><br>
+                    <button class="next" onclick="changeDresses()">change dress</button><br>
+                    <button class="next" onclick="changeJackets()">change jacket</button><br>
+                    <button class="next" onclick="changePants()">change pants</button><br>
                     <button class="next" onclick="changeTops()">change top</button>
                 </div>
-    
-            <h1>Pants</h1>
-    
-            <div id="big" class= "bottom" > </div>
-    
-            <div>
-                <img id="pants" class="small" src="photos/women/a/istockphoto-1005469750-612x612-removebg-preview.png">
-                <button class="next" onclick="changePants()">change pants</button>
+                <h1>Tops</h1>
+
+                <div id="big" class="bottom"> </div>
+
+                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img id="tops" class="shirt" class="small"
+                        src="https://images.vexels.com/media/users/3/148621/isolated/preview/7342af9feb5bcde30180f14b9629ded5-blue-women-t-shirt-cartoon-by-vexels.png" draggable="true" ondragstart="drag(event)" id="drag1" >
+
+                </div>
+
+                <h1>Pants</h1>
+
+                <div id="big" class="bottom"> </div>
+
+                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img id="pants" class="pnts" class="small"
+                        src="photos/women/a/istockphoto-1005469750-612x612-removebg-preview.png" draggable="true" ondragstart="drag(event)" id="drag1" >
+
+                </div>
             </div>
-    
-            <h1>Jackets</h1>
-    
-            <div id="big" class= "bottom" > </div>
-    
-            <div>
-                <img id="jackets" class="small" src="photos/women/a/istockphoto-1005469750-612x612-removebg-preview.png">
-                <button class="next" onclick="changeJackets()">change jacket</button>
-            </div>
-    
-            <h1>Dresses</h1>
-    
-            <div id="big" class= "bottom" > </div>
-    
-            <div>
-                <img id="dresses" class="small" src="photos/women/a/istockphoto-1005469750-612x612-removebg-preview.png">
-                <button class="next" onclick="changeDresses()">change dress</button>
-            </div>
-    
-            <h1>Shoes</h1>
-    
-            <div id="big" class= "bottom" > </div>
-    
-            <div>
-                <img id="shoes" class="small" src="photos/women/a/istockphoto-1005469750-612x612-removebg-preview.png">
-                <button class="next" onclick="changeShoes()">change shoes</button>
-            </div>
-    
-                <img src="photos/women/r1245-a-removebg-preview.png">
-            
-        
-  
+            <div class="column">
+                <h1>Jackets</h1>
+
+                <div id="big" class="bottom"> </div>
+
+                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img id="jackets" class="small"
+                        src="photos/women/a/istockphoto-1005469750-612x612-removebg-preview.png" draggable="true" ondragstart="drag(event)" id="drag1" >
+
+                </div>
+
+                <h1>Dresses</h1>
+
+                <div id="big" class="bottom"> </div>
+
+                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img id="dresses"  class="dres"
+                        src="photos/women/a/istockphoto-1005469750-612x612-removebg-preview.png" draggable="true" ondragstart="drag(event)" id="drag1" >
+
+                </div>
+
+                <h1>Shoes</h1>
+
+                <div id="big" class="bottom"> </div>
+
+                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img id="shoes" class="foot" class="small"
+                        src="photos/women/a/istockphoto-1005469750-612x612-removebg-preview.png" draggable="true" ondragstart="drag(event)" id="drag1">
+
+                </div></div>
+                <div id="div2" class="one" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div id="div2" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div id="div2" class="three" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div id="div2" class="four" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div id="div2" class="five" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div id="div2" class="six" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+       
+        <div class="column" ><img src="photos/women/r1245-a-removebg-preview.png"  width= "645px" height= "634px"></div>
+
+        <div class="column" ><img src="photos/women/r1245-a-removebg-preview.png"  width= "645px" height= "634px"></div>
+    </div>
+
+
     </body>
 
-    </html>
+  
 
 
     <html>
@@ -125,19 +144,12 @@
                 float: left;
                 width: 250px;
                 height: 250px;
-                
-                
-                border: 10px solid black;
-            }
 
-            #div2 {
-                float: left;
-                width: 250px;
-                height: 250px;
-                
-                
+
                 border: 1px solid black;
             }
+
+           
         </style>
         <script>
             function allowDrop(ev) {

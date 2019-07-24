@@ -39,3 +39,7 @@
     display: block;
   }
   
+.create {
+  color: white;
+  text-shadow: 5px 5px 7px #000000;
+}
