@@ -24,6 +24,7 @@ var tops = [
     "photos/men/b/m_5c4e1f104ab633c76ea17587-removebg-preview.png",
     "photos/men/b/pc61wht-portcof_01-removebg-preview.png",
     "photos/men/b/Supreme-Scarface-Split-Tee-Heather-Grey_1-1300x1300-removebg-preview.png",
+    "photos/men/b/81hlagQSGOL-removebg-preview.png"
    ]
 function changeTops() {
     var select = document.querySelector("#tops");
