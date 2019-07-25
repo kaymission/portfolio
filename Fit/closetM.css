@@ -11,7 +11,11 @@ body {
     width: 220px;
    }
    .pnts {
-    height: 340px;
+    height: 280px;
+    width: 280px;
+   }
+   .jack {
+    height: 240px;
     width: 240px;
    }
    .foot {
@@ -23,20 +27,20 @@ body {
     width: 150px;
    }
   .one {
-     
       position: absolute;
-      top: 150px;
+      top: 135px;
       right: 400px;
-      width: 280px;
-      height: 280px;
+      width: 100px;
+      height: 100px;
       
   }
   .two {
     position: absolute;
-    top: 140px;
-    right: 400px;
-    width: 170px;
-    height: 170px;
+    top: 10px;
+    right: 90px;
+    width: 250px;
+    height: 250px;
+    
   }
   .three {
     position: absolute;
@@ -48,10 +52,10 @@ body {
   }
   .four {
     position: absolute;
-    top: 300px;
-    right: 410px;
-    height: 340px;
-    width: 240px;
+    top: 340px;
+    right: 430px;
+    height: 280px;
+    width: 280px;
     
   }
   .five {
@@ -62,7 +66,30 @@ body {
     height: 250px;
     
   }
+  .six {
+    position: absolute;
+    top: 130px;
+    right: 160px;
+    width: 230px;
+    height: 230px;
+    
+}
+.seven {
+  position: absolute;
+  top: 340px;
+  right: 180px;
+  height: 280px;
+  width: 280px;
   
+}
+.eight {
+  position: absolute;
+  top: 560px;
+  right: 140px;
+  width: 150px;
+  height: 150px;
+
+}
    
    .small {
     height: 200px;
