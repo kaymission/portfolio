@@ -49,10 +49,11 @@ var pants = [
     "photos/men/a/black-jeans-500x500-removebg-preview.png",
     "photos/men/a/kappa-red-black-slim-fit-sweatpants-p14354-36454_image-removebg-preview.png",
     "photos/men/a/New-Joggers-Pants-men-Jordan-letter-print-hip-hop-Keep-warm-winter-Sweatpants-Pantalon-Homme-Trousers-removebg-preview.png",
+    "photos/men/a/1_MEN_S_GYM_SHORTS_OZ_GYM_WEAR_EMBRACE_PAIN_GREY_1024x1024_2x-removebg-preview.png"
  ]
 function changePants() {
     var select = document.querySelector("#pants");
-    if (pantsIndex == 5) {
+    if (pantsIndex == 7) {
         pantsIndex = 0;
         select.src = pants[pantsIndex];
     }
@@ -72,10 +73,11 @@ var jackets = [
     "photos/men/c/modernhmhoodiechaitea-chai-tea-removebg-preview.png",
     "photos/men/c/PBY_073L_262881-removebg-preview.png",
     "photos/men/c/Sauce-Hoodie-removebg-preview.png",
+    "photos/men/c/534184dbd2d9e5b05bb075ef9eb90ee1--zip-up-hoodies-mens-sweatshirts-removebg-preview.png"
 ]
 function changeJackets() {
     var select = document.querySelector("#jackets");
-    if (jacketsIndex == 5) {
+    if (jacketsIndex == 7) {
         jacketsIndex = 0;
         select.src = jackets[jacketsIndex];
     }
@@ -95,10 +97,11 @@ var dresses = [
     "photos/men/d/Mens_Air_Jordan_13_Newest_Mid_Black_White_Shoes-removebg-preview.png",
     "photos/men/d/nike-555088-013-ws-a-removebg-preview.png",
     "photos/men/d/nike-aj1285-602-al-a-removebg-preview.png",
+    "photos/men/d/08-07-2019_nike_airforce107_white_315122-111_mb_1-removebg-preview.png"
   ]
 function changeDresses() {
     var select = document.querySelector("#dresses");
-    if (dressesIndex == 5) {
+    if (dressesIndex == 7) {
         dressesIndex = 0;
         select.src = dresses[dressesIndex];
     }
@@ -118,10 +121,11 @@ var shoes = [
     "photos/men/e/hy-581-003a-021-removebg-preview.png",
     "photos/men/e/Minimalist-Brand-Cap-Men-Beanie-Winter-Hats-For-Women-Knitted-Bonnet-Mens-Beanies-Cotton-7-colors_0d3dcaac-fca0-40d5-8c7c-ba09c2ebbae7-removebg-preview.png",
     "photos/men/e/s-l300-removebg-preview.png",
+    "photos/men/e/3cfd97e0-e517-4ba4-b12a-56a98247291d-removebg-preview.png" 
 ]
 function changeShoes() {
     var select = document.querySelector("#shoes");
-    if (shoesIndex == 6) {
+    if (shoesIndex == 7) {
         shoesIndex = 0;
         select.src = shoes[shoesIndex];
     }
