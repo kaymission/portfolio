@@ -27,7 +27,7 @@ var tops = [
 ]
 function changeTops() {
     var select = document.querySelector("#tops");
-    if (topsIndex == 5) {
+    if (topsIndex == 6) {
         topsIndex = 0;
         select.src = tops[topsIndex];
     }

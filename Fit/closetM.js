@@ -27,7 +27,7 @@ var tops = [
    ]
 function changeTops() {
     var select = document.querySelector("#tops");
-    if (topsIndex == 5) {
+    if (topsIndex == 6) {
         topsIndex = 0;
         select.src = tops[topsIndex];
     }
@@ -120,7 +120,7 @@ var shoes = [
 ]
 function changeShoes() {
     var select = document.querySelector("#shoes");
-    if (shoesIndex == 5) {
+    if (shoesIndex == 6) {
         shoesIndex = 0;
         select.src = shoes[shoesIndex];
     }
